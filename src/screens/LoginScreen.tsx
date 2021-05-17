@@ -8,6 +8,11 @@ import MainButton from '../shared/components/MainButton';
 
 const Title = styled.h1`
 `
+const InputLabelContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
 
 const LoginScreen: FunctionComponent = () => {
     const history = useHistory();
@@ -16,7 +21,10 @@ const LoginScreen: FunctionComponent = () => {
     return (
         <Screen>
             <Title>Login Screen</Title>
-            <Input/>
+            <InputLabelContainer>
+                <Typography style={{fontWeight: 'bold'}}>Nickname:</Typography>
+                <Input/>
+            </InputLabelContainer>
             <MainButton title="Login" onClick={onLogin}/>
         </Screen>
     )
