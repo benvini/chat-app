@@ -17,7 +17,7 @@ const StyledInput = styled.input`
   background: ${COLOR.SECONDARY};
   border-radius: 5px;
   &:hover {
-    background: ${COLOR.WARNING};
+    background: ${COLOR.LIGHT_BLUE};
   }
 `;
 
