@@ -11,11 +11,12 @@ const Container = styled.div`
 
 const StyledButton = styled.button`
     font-weight: bold;
-    background-color: ${COLOR.SECONDARY};
+    background-color: ${COLOR.PRIMARY};
     padding: 10px;
     align-items: center;
     width: 120px;
     border-radius: 4px;
+    cursor: pointer;
 `
 type Props = {
     onClick: () => void,

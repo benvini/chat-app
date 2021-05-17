@@ -8,7 +8,7 @@ type Props = {
 
 const Container = styled.div``
 const StyledText = styled.label`
-    font-size: 16px;
+    font-size: 20px;
     color: black;
 `
 
